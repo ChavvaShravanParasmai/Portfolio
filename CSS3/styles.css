@@ -1,0 +1,130 @@
+/*BACKGROUND-COLOR: #efbba6
+  STROKE: #d29a81
+  COLOR: #212529*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212529;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  background-color: #efbba6;
+}
+
+h1 {
+  margin-top: 120px;
+  margin-bottom: 20px;
+  font-family: "Noto Serif Display", serif;
+  font-size: 60px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.header-text-box {
+  margin-left: 80px;
+}
+
+.header-text {
+  font-size: 1.2rem;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  margin-bottom: 48px;
+  margin-top: 64px;
+}
+
+h2 {
+  margin-bottom: 48px;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+}
+
+.features-icon {
+  width: 32px;
+  height: 32px;
+  stroke: #d29a81;
+  margin-bottom: 15px;
+}
+
+.features-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.features-text {
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+.customer-feedback-section {
+  background-color: #efbba6;
+  color: #212529;
+}
+
+.customer-feedback-box {
+  grid-column: 2 / -1;
+  align-self: center;
+}
+
+.customer-feedback-text {
+  line-height: 1.7;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.combo {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+
+.combo-box {
+  padding: 32px;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.combo-details {
+  list-style: none;
+}
+
+.combo-details li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.combo-details li:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
